@@ -240,7 +240,7 @@ const RoleListPage = () => {
             <Button onClick={handleNewRoleClick} startIcon={<Plus />} size="S">
               {formatMessage({
                 id: 'Settings.roles.list.button.add',
-                defaultMessage: 'Add new role',
+                defaultMessage: 'Add new role - example',
               })}
             </Button>
           ) : null
