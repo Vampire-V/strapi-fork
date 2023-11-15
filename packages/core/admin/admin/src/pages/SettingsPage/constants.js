@@ -1,13 +1,13 @@
 export const ROUTES_CE = [
-  {
-    async Component() {
-      const component = await import('./pages/Roles/ProtectedListPage');
+  // {
+  //   async Component() {
+  //     const component = await import('./pages/Roles/ProtectedListPage');
 
-      return component;
-    },
-    to: '/settings/roles',
-    exact: true,
-  },
+  //     return component;
+  //   },
+  //   to: '/settings/roles',
+  //   exact: true,
+  // },
   {
     async Component() {
       const component = await import('./pages/Roles/CreatePage');
